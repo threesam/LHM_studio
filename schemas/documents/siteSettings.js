@@ -28,6 +28,11 @@ export default {
     {
       name: 'contact',
       type: 'contactInfo'
+    },
+    {
+      name: 'footerText',
+      title: 'Footer Text',
+      type: 'text'
     }
   ]
 }
