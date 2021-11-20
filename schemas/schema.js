@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // Import document schemas
 import siteSettings from './documents/siteSettings'
+import page from './documents/page'
 import editor from './documents/editor'
 import service from './documents/service'
 import press from './documents/press'
@@ -26,6 +27,7 @@ export default createSchema({
     /* Your types here! */
     // documents
     siteSettings,
+    page,
     editor,
     service,
     press,
