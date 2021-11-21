@@ -11,11 +11,16 @@ import editor from './documents/editor'
 import service from './documents/service'
 import press from './documents/press'
 import pamphlet from './documents/pamphlet'
+import quote from './documents/quote'
+import banner from './documents/banner'
+import textBlock from './documents/textBlock'
 
 // Import object schemas
 import blockContent from './objects/blockContent'
 import contactInfo from './objects/contactInfo'
 import mainImage from './objects/mainImage'
+import cta from './objects/cta'
+import color from './objects/color'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -32,9 +37,14 @@ export default createSchema({
     service,
     press,
     pamphlet,
+    quote,
+    banner,
+    textBlock,
     // objects
     blockContent,
     contactInfo,
-    mainImage
+    mainImage,
+    cta,
+    color
   ]),
 })

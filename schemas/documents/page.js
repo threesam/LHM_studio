@@ -18,14 +18,24 @@ export default {
       },
     },
     {
-      name: 'image',
-      title: 'Banner Image',
-      type: 'mainImage'
+      name: 'banner',
+      type: 'reference',
+      title: 'Banner',
+      to: [{ type: 'banner' }]
     },
     {
-      name: 'description',
-      title: 'Page Description',
-      type: 'text'
+      name: 'quote',
+      type: 'reference',
+      title: 'Quote',
+      to: [{ type: 'quote' }]
+    },
+    {
+      name: 'textBlock',
+      type: 'reference',
+      title: 'Text Block',
+      to: [
+        { type: 'textBlock' }
+      ]
     }
   ],
   preview: {
