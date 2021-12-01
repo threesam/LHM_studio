@@ -9,6 +9,7 @@ import siteSettings from './documents/siteSettings'
 import page from './documents/page'
 import editor from './documents/editor'
 import service from './documents/service'
+import project from './documents/project'
 import press from './documents/press'
 import pamphlet from './documents/pamphlet'
 import quote from './documents/quote'
@@ -37,6 +38,7 @@ export default createSchema({
     service,
     press,
     pamphlet,
+    project,
     quote,
     banner,
     textBlock,
