@@ -14,6 +14,19 @@ export default {
       title: 'Description'
     },
     {
+      name: 'textColor',
+      title: 'Text Color',
+      type: 'array',
+      of: [{ type: 'string' }],
+      options: {
+        list: [
+          { value: 'white', title: 'White' },
+          { value: 'black', title: 'Black' },
+          { value: 'darkBlue', title: 'Dark Blue' }
+        ]
+      }
+    },
+    {
       name: 'size',
       description: 'Choose only one',
       type: 'array',
@@ -30,6 +43,12 @@ export default {
       name: 'image',
       title: 'Image',
       type: 'mainImage'
+    },
+    {
+      name: 'video',
+      type: 'file',
+      title: 'Video',
+      description: 'Will override image if set.'
     },
     {
       title: 'CTA',

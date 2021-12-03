@@ -2,6 +2,7 @@ export default {
   name: 'page',
   title: 'Page',
   type: 'document',
+  __experimental_actions: ['update', /*'create', 'delete',*/ 'publish'],
   fields: [
     {
       name: 'title',
@@ -22,12 +23,6 @@ export default {
       type: 'reference',
       title: 'Banner',
       to: [{ type: 'banner' }]
-    },
-    {
-      name: 'quote',
-      type: 'reference',
-      title: 'Quote',
-      to: [{ type: 'quote' }]
     },
     {
       name: 'textBlock',

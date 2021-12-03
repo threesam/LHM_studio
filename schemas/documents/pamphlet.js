@@ -37,9 +37,9 @@ export default {
       type: 'url'
     },
     {
-      name: 'file',
-      title: 'File',
-      type: 'file'
+      name: 'tags',
+      title: 'Tags',
+      type: 'tags'
     }
   ]
 }
